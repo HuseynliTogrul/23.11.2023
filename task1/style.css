@@ -50,7 +50,7 @@ header{
     color: #274DE0;
 }
 
-.container .header-center ul li a:not(:first-child):hover{
+.container .header-center ul li a:not(.not-hover a):hover{
     color: black;
 }
 

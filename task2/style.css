@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    color: black;
+    width: 1280px;
+    margin: auto;
+    padding: 36px 80px;
+}
+
+#header{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-bottom: 96px;
+}
+
+#header .header-left{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+#header .header-left a{
+    color: black;
+    text-decoration: none;
+}
+
+#header .header-center ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+#header .header-center ul li{
+    display: flex;
+    align-items: center;
+}
+
+#header .header-center ul li a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#header .header-center ul li a:hover{
+    color: #EF233C;
+}
+
+#header .header-center ul li .header-img{
+    position: relative;
+    transition-duration: 0.2s;
+}
+
+#header .header-right a{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none;
+    margin-right: 33px;
+}
+
+#header .header-right button{
+    color: white;
+    border-radius: 30px;
+    background: #EF233C;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 8px 20px;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+#header .header-right button:hover{
+    background: #ff001e;
+}
+
+/* header end */
+/* main start */
+
+.main{
+    text-align: center;
+}
+
+.main h1{
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+}
+
+.main p{
+    width: 681px;
+    color: #A5A5A5;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    margin: auto;
+    margin-bottom: 96px;
+}
+
+.main button{
+    border-radius: 30px;
+    background: #EF233C;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    padding: 15px 24px;
+    border: none;
+    margin-bottom: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.main button:hover{
+    background: #ff001e;
+}
+
+.main a{
+    color: #EF233C;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
