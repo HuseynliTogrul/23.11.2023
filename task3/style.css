@@ -50,8 +50,9 @@ nav{
     opacity: 0.6;
 }
 
-.header-left ul li a:hover{
-    opacity: 0.6;
+.header-left ul li a.active{
+    color: white;
+    opacity: 10;
 }
 
 .header-left ul li img{
